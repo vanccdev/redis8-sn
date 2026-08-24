@@ -18,7 +18,10 @@ services:
 
     networks:
       - dokploy-network
-      
+
+volumes:
+  redis_data:
+  
 networks:
   dokploy-network:
     external: true
